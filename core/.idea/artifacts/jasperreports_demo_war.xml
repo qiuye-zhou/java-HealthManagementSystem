@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jasperreports_demo:war">
+    <output-path>$PROJECT_DIR$/health_parent/jasperreports_demo/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jasperreports_demo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jasperreports_demo-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="jasperreports_demo:war exploded" />
+    </root>
+  </artifact>
+</component>
